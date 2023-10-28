@@ -1,0 +1,25 @@
+https://www.postman.com/eu6grp15/workspace/simple-books-api-glitch-me/collection/18551292-ab5af4da-41cd-4fa3-a443-f0f6b38ec6b6
+
+TOKEN GENERATED:-
+3c530756952a20b3e9bbaac22ca597468f05ac7f149fa1f6f0c9395268760639
+e41042418550765d70c8e2eba1b76c878a7c86bbc352d3aff222fb88f7f16f78
+
+orderid:-  P7ubWkfM9TqUn4s8qlEPs
+
+
+Getting started with tests:-
+VALIDATION SCRIPTS:-
+
+{https://learning.postman.com/docs/writing-scripts/script-references/test-examples/#testing-response-body}
+STATUS CODE:-
+
+
+1) pm.test("Status code is 200", function () {
+     pm.response.to.have.status(200);
+   });
+
+2)    pm.test("Status code is 200", () => {
+        pm.expect(pm.response.code).to.eql(200);
+    });
+
+3) 
